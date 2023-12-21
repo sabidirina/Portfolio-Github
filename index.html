@@ -1,12 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>ESPA - Care shop</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="À la recherche des meilleurs cosmetiques Bio"/>
+    <meta name="keywords" content="produits bio, crémes visage, soins pour le corps,soins,hygienne"/>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Mon Portefolio</h1>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">Help</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+  <!-- Navbar Start -->
+  <div class="container-fluid position-relative nav-bar p-0">
+    <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-primary"><span class="text-secondary">ESPA-</span>CARE</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="product.html" class="nav-item nav-link">Product</a>
+                </div>
+                <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">ESPA-</span>CARE</h1>
+                </a>
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="gallery.html" class="nav-item nav-link">S'inscrir</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="compte.html" class="nav-item nav-link">compte</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/Img27.jpg" alt="cosmetiques">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3"></h4>
+                            <h1 class="display-3 text-white mb-md-4"></h1>
+                            <br>
+                            <br>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2 ensavoirplus">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="Img/Img26.jpg" alt="ESPA">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3"></h4>
+                            <h1 class="display-3 text-white mb-md-4"></h1>
+                            <br>
+                            <br>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">En savoir pluse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n1"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n1"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5">A Propos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                   
+                    <h5 class="text-muted mb-3">Nous somme une entreprise spécialise dans la fabrication de produits de soin Bio</h5>
+                    <p> Nous offrant des produits a base d'ingredients naturel, sans concervateurs ni collorants sans oublier qu'il s'adapte a tous type de peaux </p>
+                    <a href="" class="btn btn-secondary mt-2">En savoir plus</a>
+                </div>
+                <div class="col-lg-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/Img3.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <h5 class="text-muted mb-3">Nos produits</h5>
+                    <p>Nous vous offrant une grande gamme de produit de soin pour le corps et de skincare</p>
+                    
+                    <a href="" class="btn btn-primary mt-2">En savoir pluse</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Promotion Start -->
+    <div class="container-fluid my-5 py-5 px-0">
+        <div class="row bg-primary m-0">
+            <div class="col-md-6 px-0" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="img/ESPA shorts.jpg" style="object-fit: cover;">
+                    <button type="button" class="btn-play" data-toggle="modal"
+                        data-src="https://www.youtube.com/embed/A9yXKMXzr9k" data-target="#videoModal">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 py-5 py-md-0 px-0">
+                <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <h3 class="font-weight-bold">ESPA x THE RITZ-CARLTON | Wellness</h3>
+                    
+                    <h3 class="font-weight-bold text-black mt-3 mb-4">AVEC ESPA VIVEZ L'ÉCLAT</h3>
+                    <a href="" class="btn btn-secondary py-3 px-5 mt-2">Réserver</a>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Promotion End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Les meilleurs services que nous offrons à nos clients</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel service-carousel">
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Img6.png" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Optimal Skin Instant Facial Soin Visage</h5>
+                                <p>Le produit indispensable qui ravive les peaux ternes et leur apporte de l’éclat en un instant,Une formule multiaction 3-en-1 qui associe les bienfaits d’un sérum,
+                                     d’une essence et d’une huile pour raviver les peaux ternes et révéler un fini lisse. 
+                                .</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Img5.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Huile Corps & Bain Connection</h5>
+                                <p>Élevez vos rituels de soins personnels avec l'huile pour le bain et le corps ESPA Connection. Favorisant une atmosphère paisible, la formule polyvalente dorlote
+                                     la peau et les sens avec un cocktail d'ingrédients nourrissants</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Img4.png" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Optimal Skin Pro-Cleanser Nettoyant 3 en 1 Aux Enzymes</h5>
+                                <p>La première étape pour obtenir une peau éclatante consiste à utiliser ce soin aux enzymes multi-usages, qui contribue à soutenir le renouvellement cellulaire de surface
+                                     et à révéler une peau d’apparence saine et radieuse.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">En savoir plus</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/Img7.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Tri-Active™ Lift & Firm Moisturiser Soin Visage</h5>
+                                <p>Faites ressortir la jeunesse qui sommeille en vous et combattez tous les signes du vieillissement grâce au Tri-Active™ Lift & Firm Moisturiser. 
+                                    Un hydratant intensément nourrissant enrichi en extraits de mélèze et d’ambre pour une peau lisse.</p>
+                                <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid my-5 py-5 px-0">
+        <div class="row justify-content-center m-0">
+            <div class="col-lg-5">
+                <h1 class="section-title position-relative text-center mb-5">Découvrez Nos collection </h1>
+            </div>
+        </div>
+        <div class="row m-0 portfolio-container">
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/Img8.jpg" alt="">
+                    <a class="portfolio-btn" href="img/Img8.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 100px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/Img9.jpg" alt="">
+                    <a class="portfolio-btn" href="img/Img9.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
+                <div class="position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/Img10.jpg" alt="">
+                    <a class="portfolio-btn" href="img/Img10.jpg" data-lightbox="portfolio">
+                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
+                    </a>
+                </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Products Start -->
+    
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                   
+                        </div>
+                        
+                                
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+   
+                    <h1 class="section-title position-relative text-center mb-5">Notre Histoire</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Chez ESPA, nous sommes guidés par une philosophie holistique, qui se concentre sur le bien-être 
+                                global grâce à des produits de soins de la peau naturellement efficaces qui donnent des résultats qu'on peut voir et sentir,
+                                Nos produits formulés par des spécialistes protègent la santé et la beauté de la peau à long terme. Des textures somptueuses et des parfums aromatiques,
+                                 qui nous font du bien, transforment la routine beauté quotidienne en un rituel de bien-être.</h4>
+                           
+                            
+                            <span></span>
+                            <h1 class="section-title position-relative text-center mb-5">Nos Produits</h1>
+                            
+                </div>
+                            
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Nos formules, adorées par nos clients du monde entier, contiennent des combinaisons uniques d'extraits de plantes, 
+                                d'actifs marins et d'huiles essentielles pour créer les produits les plus efficaces et les plus naturels Nos experts en biochimie sélectionnent 
+                                et distillent avec soin les ingrédients les plus purs, de la plus haute qualité issus de la nature, en les utilisant à leur niveau optimal pour créer 
+                                des produits qui fonctionnent en harmonie pour une peau saine,Chaque produit est conçu par des spécialistes pour offrir une expérience sensorielle ESPA .
+                                </h4>
+                            
+                            
+                            <span></span>
+                            
+                </div>
+                       
+                            
+                            
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">ESPA-</span>Care</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Contact</h5>
+                            <p class="mb-2">28 cité les pains, la marsa</p>
+                            <p class="mb-0">+216 71 345 678</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Horaire d'ouverture</h5>
+                            <p class="mb-2">Lun – Sam, 9h – 16h</p>
+                            <p class="mb-0">Dimenche: Fermer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy;<a href="#">THG</a>. The Hut.com est une entreprise enregistrée en Angleterre et au Pays de Galles (numéro d'entreprise 05016010) dont l'adresse est Voyager House, Chicago Avenue, Manchester, Code postal: M90 3DQ) <a href="https://htmlcodex.com"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
