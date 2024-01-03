@@ -1,0 +1,5 @@
+
+User agent: googlebot 
+Allow: *
+Disallow: /admin/
+Site-map:/Users/sabrina.z/Desktop
